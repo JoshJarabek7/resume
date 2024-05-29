@@ -1,0 +1,88 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{geometry}
+\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage[sfdefault]{roboto}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage[none]{hyphenat}
+
+\titleformat{\section}{\large\bfseries\color{blue!50!black}}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries\color{blue!30!black}}{}{0em}{}
+
+\newcommand{\infoitem}[2]{\textbf{#1}: \href{#2}{#2}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge Joshua Jarabek} \\
+    \vspace{2mm}
+    \textbf{Full-Stack Software Engineer} \\
+    \vspace{2mm}
+    \infoitem{Email}{mailto:jarabekjosh@icloud.com} \quad \faIcon{envelope}
+\end{center}
+
+\vspace{5mm}
+
+\section*{Summary}
+Innovative and driven professional with a strong background in computer science, sales, and entrepreneurship. Proven track record of success in sales roles and a passion for developing cutting-edge technology solutions. Skilled in full-stack web development and building scalable applications using modern technologies.
+
+\section*{Education}
+\begin{itemize}[leftmargin=0in, label={}]
+    \item \textbf{Bachelor of Science in Computer Science}, Western Governors University -- 2022
+    \item \textbf{Bachelor of Business Administration in Marketing}, Texas Tech University -- 2018
+          \begin{itemize}
+              \item Minor in Philosophy
+              \item Member of Delta Sigma Phi fraternity
+          \end{itemize}
+\end{itemize}
+
+\section*{Experience}
+
+\subsection*{Founder, Parakeet}
+\textit{March 2023 -- Present}
+\begin{itemize}
+    \item Developed an AI-powered EdTech platform for higher education, incorporating automated note-taking, context-aware intelligent assistants, and AI grading for rubric-based assignments using advanced machine learning techniques.
+    \item Built a scalable web application using SvelteKit (Node.js), optimizing performance through efficient coding practices and framework capabilities.
+    \item Implemented an audio/video processing farm using FFMPEG and Python, enhancing lecture AV processing and streaming efficiency with robust scripting and automation.
+    \item Designed and developed backend microservices, including authentication/authorization APIs and virus scanning using FastAPI, ensuring secure and reliable service architecture.
+    \item Utilized RabbitMQ clusters for task queues and messaging between microservices, implementing a robust and scalable messaging system.
+    \item Employed Kubernetes on Azure VM Scale Sets for canary deployments and high availability, integrating GitHub Actions for seamless CI/CD pipelines.
+    \item Implemented Redis clusters for cache management and NGINX for web servers, optimizing data retrieval and server performance.
+    \item Utilized Azure Blob Storage for secure file storage and MongoDB and MySQL for database management, ensuring scalable and efficient data handling.
+    \item Followed best practices for OOP design patterns and used Docker for containerization, enhancing modularity and deployment efficiency.
+\end{itemize}
+
+\subsection*{Senior Marketing Consultant, MultiView}
+\textit{February 2020 -- November 2020}
+\begin{itemize}
+    \item Achieved top-performing sales status by effectively selling newsletter ad placements to small businesses in B2B newsletters through targeted outreach and personalized sales strategies.
+    \item Managed the entire sales process, from cold calling to closing deals, by implementing strategic sales techniques and maintaining a high conversion rate, consistently exceeding sales targets.
+\end{itemize}
+
+\subsection*{Sales Development Representative, Hewlett Packard Enterprise}
+\textit{March 2019 -- November 2019}
+\begin{itemize}
+    \item Collaborated with partners such as CDW and SHI to secure high-value meetings for Account Executives in the Northern California territory by leveraging strong relationship-building skills and targeted outreach.
+    \item Specialized in storage solutions, including Nimble storage, while also successfully booking meetings for servers and networking products through deep product knowledge and persuasive communication.
+    \item Consistently achieved monthly sales targets by developing and executing effective sales strategies, maintaining a thorough understanding of product offerings, and fostering strong client relationships.
+\end{itemize}
+
+\section*{Skills}
+\begin{itemize}[leftmargin=0in, label={}]
+    \item \textbf{Full-stack web development:} Svelte, Node.js, SvelteKit, Azure, HTML/CSS, JavaScript
+    \item \textbf{Backend development:} Node.js, FastAPI, Python, RabbitMQ, Kubernetes, Redis, NGINX
+    \item \textbf{Cross-platform desktop application development:} Tauri, Rust
+    \item \textbf{Database management:} MongoDB, MySQL, PostgreSQL, SQL
+    \item \textbf{Other skills:} Sales and marketing, Project management, GitHub Actions (CI/CD), Docker, OOP design patterns
+\end{itemize}
+
+\section*{Certifications}
+\begin{itemize}[leftmargin=0in, label={}]
+    \item CompTIA Project+
+\end{itemize}
+
+\end{document}
